@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
-import "github.com/spf13/cobra"
+import (
+    "code.sajari.com/docconv"
+    "fmt"
+)
 
 func main() {
-    fmt.Println("hello world", cobra.BashCompCustom)
+    fmt.Println("hello world", docconv.HTMLReadabilityOptions{})
 }
