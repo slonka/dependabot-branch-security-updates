@@ -2,7 +2,7 @@ module github.com/slonka/dependabot-branch-security-updates
 
 go 1.18
 
-require code.sajari.com/docconv v1.2.0
+require code.sajari.com/docconv v1.3.5
 
 require (
 	github.com/JalfResi/justext v0.0.0-20170829062021-c0282dea7198 // indirect
@@ -13,8 +13,6 @@ require (
 	github.com/fatih/set v0.2.1 // indirect
 	github.com/gigawattio/window v0.0.0-20180317192513-0f5467e35573 // indirect
 	github.com/go-resty/resty/v2 v2.3.0 // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.7 // indirect
 	github.com/jaytaylor/html2text v0.0.0-20200412013138-3577fbdbcff7 // indirect
 	github.com/levigross/exp-html v0.0.0-20120902181939-8df60c69a8f5 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
@@ -24,9 +22,7 @@ require (
 	github.com/richardlehane/mscfb v1.0.3 // indirect
 	github.com/richardlehane/msoleps v1.0.3 // indirect
 	github.com/ssor/bom v0.0.0-20170718123548-6386211fdfcf // indirect
-	github.com/stretchr/testify v1.7.0 // indirect
 	golang.org/x/net v0.0.0-20210503060351-7fd8e65b6420 // indirect
 	golang.org/x/text v0.3.6 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 )
