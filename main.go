@@ -1,10 +1,10 @@
 package main
 
 import (
-    "code.sajari.com/docconv"
     "fmt"
+    "github.com/bits-and-blooms/bloom/v3"
 )
 
 func main() {
-    fmt.Println("hello world", docconv.HTMLReadabilityOptions{})
+    fmt.Println("hello world", bloom.BloomFilter{})
 }

@@ -1,7 +1,10 @@
 version: 2
 updates:
   - package-ecosystem: "gomod"
+    open-pull-requests-limit: 0
     directory: "/"
+    allow:
+      - dependency-type: "all"
     schedule:
       interval: "daily"
       time: "17:15"
